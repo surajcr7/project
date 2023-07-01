@@ -3498,3 +3498,11 @@ ol {
 		font-size: 24px;
 	}
 }
+
+.blog__details__author__pic img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image fills the container */
+    object-position: center; /* Center the image within the container */
+}
